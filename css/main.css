@@ -1,0 +1,184 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #D9325E;
+}
+
+#work {
+  height: 1450px;
+}
+
+#about {
+  height: 650px;
+}
+
+#contact {
+  height: 400px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 800px;
+  background: url('../img/hero.png');
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #F25430;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 200px;
+}
+
+header p {
+  font-size: 48px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+header a {
+  text-decoration: none;
+  color: #F25430;
+}
+
+header nav {
+  float: right;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0;
+  padding-right: 50px;
+  color: #FFFFFF;
+}
+
+/***** WORK *****/
+
+#work h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#work img {
+  border: 1px solid #D9325E;
+}
+
+#work p {
+  height: 350px;
+  line-height: 36px;
+  margin-top: 0;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #F25430;
+  color: #FFFFFF;
+}
+
+#about h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#about p {
+  margin-top: 0;
+}
+
+#about img {
+  padding-left: 200px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #D9325E;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#contact h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul i {
+  color: #F2DABD;
+  margin-right: 45px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  background-color: #D9325E;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
